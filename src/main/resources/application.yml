@@ -23,10 +23,10 @@ api:
   prefix: api/v1
   google:
     maps:
-      api-key: AIzaSyAi-YQpY3WRpflj2QPt7NK3lMnn69Ok9q8
+      api-key: AIzaSyDcsW0HBTcmZwLoX0u9tBBsAEC4Y3ylelA
 
 jwt:
-  expiration: 2592000 #30 days = 30 * 24 * 60 * 60
+  expiration: 86400 #1 day = 24 * 60 * 60
   expiration-refresh-token: 5184000 #60 days = 60 * 24 * 60 * 60
   secretKey: TaqlmGv1iEDMRiFp/pHuID1+T84IABfuA0xXh4GhiUI=
 
