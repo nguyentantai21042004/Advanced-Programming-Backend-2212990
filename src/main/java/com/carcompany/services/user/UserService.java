@@ -177,7 +177,6 @@ public class UserService implements IUserService {
 
         if (!passwordEncoder.matches(userLoginDTO.getPassword(), existingUser.getPassword())) {
             throw new BadCredentialsException("WRONG_PHONE_PASSWORD");
-
         }
 
         Optional<Role> optionalRole = roleRepository.findById(userLoginDTO.getRoleId());
